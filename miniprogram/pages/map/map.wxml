@@ -1,0 +1,9 @@
+<!--pages/map/map.wxml-->
+<map id='map' style='height:100vh;width:100vw;' markers="{{markerList}}" include-points='{{includePoints}}' show-location='true' enable-3D='true' show-compass='true' show-scale='true' enable-overlooking='true' enable-zoom='true' enable-scroll='true' enable-rotate='true' enable-traffic='enable-traffic' bindtap='test' bindpoitap='mapBindPOI' bindcallouttap='mapBindCallout' bindmarkertap='mapBindCallout'>
+	<cover-view class='map_search' bindtap="navigateToSearch" disable='true' wx:if='{{hasSearchImg}}'>
+		<cover-image src='cloud://mdzz-6idjt.6d64-mdzz-6idjt-1301922108/image/map/map_search.png'></cover-image>
+	</cover-view>
+	<cover-view class='map_loc' bindtap="positionToLoc">
+		<cover-image src='cloud://mdzz-6idjt.6d64-mdzz-6idjt-1301922108/image/map/map_loc.png'></cover-image>
+	</cover-view>
+</map>

@@ -1,0 +1,62 @@
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="page__hd">
+		<view class="page__title">工具</view>
+		<view class="page__desc">附加工具</view>
+	</view>
+	<view class="weui-grids">
+		<a class="weui-grid"  bindtap="navigateToMap">
+			<view class="weui-grid__icon">
+				<image src="../../images/tools/tools1.png" alt></image>
+			</view>
+			<view class="weui-grid__label">地图</view>
+		</a>
+		<a class="weui-grid">
+			<view class="weui-grid__icon">
+				<image src="" alt></image>
+			</view>
+			<view class="weui-grid__label">Grid</view>
+		</a>
+		<a class="weui-grid">
+			<view class="weui-grid__icon">
+				<image src="" alt></image>
+			</view>
+			<view class="weui-grid__label">Grid</view>
+		</a>
+		<a class="weui-grid">
+			<view class="weui-grid__icon">
+				<image src="" alt></image>
+			</view>
+			<view class="weui-grid__label">Grid</view>
+		</a>
+		<a class="weui-grid">
+			<view class="weui-grid__icon">
+				<image src="" alt></image>
+			</view>
+			<view class="weui-grid__label">Grid</view>
+		</a>
+		<a class="weui-grid">
+			<view class="weui-grid__icon">
+				<image src="" alt></image>
+			</view>
+			<view class="weui-grid__label">Grid</view>
+		</a>
+		<a class="weui-grid">
+			<view class="weui-grid__icon">
+				<image src="" alt></image>
+			</view>
+			<view class="weui-grid__label">Grid</view>
+		</a>
+		<a class="weui-grid">
+			<view class="weui-grid__icon">
+				<image src="" alt></image>
+			</view>
+			<view class="weui-grid__label">Grid</view>
+		</a>
+		<a class="weui-grid">
+			<view class="weui-grid__icon">
+				<image src="" alt></image>
+			</view>
+			<view class="weui-grid__label">Grid</view>
+		</a>
+	</view>
+</view>

@@ -1,0 +1,22 @@
+/* pages/map/map.wxss */
+.map_loc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 5vh;
+  width: 5vh;
+  position: fixed;
+  bottom: 6vh;
+  right: 5vw;
+}
+
+.map_search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 5vh;
+  width: 5vh;
+  position: fixed;
+  bottom: 13vh;
+  right: 5vw;
+}
